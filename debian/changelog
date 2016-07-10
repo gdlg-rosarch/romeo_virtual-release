@@ -1,0 +1,16 @@
+ros-indigo-romeo-control (0.2.2-0saucy) saucy; urgency=high
+
+  * Delete .romeo_trajectory_control_full.launch.swp
+  * Contributors: Mikael Arguedas
+
+ -- Ha Dang <hris2003@gmail.com>  Sun, 10 Jul 2016 07:00:00 -0000
+
+ros-indigo-romeo-control (0.2.1-0saucy) saucy; urgency=high
+
+  * clean version and changelogs for next release
+  * moved romeo_gazebo_plugin and romeo_control into new romeo_virtual repo
+  * Contributors: Mikael Arguedas
+
+ -- Ha Dang <hris2003@gmail.com>  Fri, 08 Jul 2016 07:00:00 -0000
+
+
