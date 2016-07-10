@@ -1,0 +1,17 @@
+ros-indigo-romeo-gazebo-plugin (0.2.2-0saucy) saucy; urgency=high
+
+  * removing an unused launch file
+  * Contributors: Natalia Lyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Sun, 10 Jul 2016 07:00:00 -0000
+
+ros-indigo-romeo-gazebo-plugin (0.2.1-0saucy) saucy; urgency=high
+
+  * clean version and changelogs for next release
+  * add back world file not supported by gazebo7
+  * moved romeo_gazebo_plugin and romeo_control into new romeo_virtual repo
+  * Contributors: Mikael Arguedas
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Fri, 08 Jul 2016 07:00:00 -0000
+
+
