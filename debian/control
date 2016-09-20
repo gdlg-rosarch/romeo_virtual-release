@@ -1,0 +1,12 @@
+Source: ros-jade-romeo-gazebo-plugin
+Section: misc
+Priority: extra
+Maintainer: Natalia Lyubova <natalia.lyubova@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-gazebo-ros, ros-jade-romeo-description
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-romeo-gazebo-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-gazebo-plugins, ros-jade-gazebo-ros, ros-jade-gazebo-ros-control, ros-jade-romeo-control, ros-jade-romeo-description, ros-jade-ros-control, ros-jade-ros-controllers
+Description: The romeo_gazebo_plugin package
