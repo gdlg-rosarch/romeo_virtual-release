@@ -6,28 +6,25 @@ Package developed against ROS Indigo and default gazebo (gazebo 2.2.3)
 Dependencies
 ------------
 
-The package requires romeo_description and romeo_control package
+The package requires Gazebo and robot-specific packages, such as romeo_description and romeo_control
 
 .. code-block:: bash
 
-    sudo apt-get install ros-indigo-romeo-description
-    sudo apt-get install ros-indigo-romeo-control
+    sudo apt-get install ros-indigo-romeo-description ros-indigo-romeo-control
 
 Other plugins to fetch and compile:
 
 .. code-block:: bash
-    
-    git clone git@github.com:roboticsgroup/roboticsgroup_gazebo_plugins.git
-    git clone git@github.com:pal-robotics/pal_msgs.git
-    git clone git@github.com:pal-robotics/pal_gazebo_plugins.git
+
+    git clone https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins.git
     catkin_make
 
 Please also make sure that the package and all the dependencies are up to date
 
 .. code-block:: bash
-    
-    sudo apt-get update
 
+    sudo apt-get update
+    sudo apt-get install ros-indigo-romeo-gazebo-plugin
 
 How to run it
 -------------
