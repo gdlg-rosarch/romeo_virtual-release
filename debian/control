@@ -1,0 +1,12 @@
+Source: ros-indigo-romeo-gazebo-plugin
+Section: misc
+Priority: extra
+Maintainer: Natalia Lyubova <natalia.lyubova@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-gazebo-ros, ros-indigo-romeo-description
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-romeo-gazebo-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-gazebo-plugins, ros-indigo-gazebo-ros, ros-indigo-gazebo-ros-control, ros-indigo-romeo-control, ros-indigo-romeo-description, ros-indigo-ros-control, ros-indigo-ros-controllers
+Description: The romeo_gazebo_plugin package
