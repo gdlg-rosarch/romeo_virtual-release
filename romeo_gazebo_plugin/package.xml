@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>romeo_gazebo_plugin</name>
+  <version>0.2.2</version>
+  <description>The romeo_gazebo_plugin package</description>
+
+  <maintainer email="natalia.lyubova@gmail.com">Natalia Lyubova</maintainer>
+  <author email="natalia.lyubova@gmail.com">Natalia Lyubova</author>
+  <author email="mikael.arguedas@gmail.com">Mikael Arguedas</author>
+
+  <license>Apache 2.0</license>
+
+  <url type="repository">https://github.com/ros-aldebaran/romeo_gazebo_plugin</url>
+  <url type="bugtracker">https://github.com/ros-aldebaran/romeo_gazebo_plugin/issues</url>
+
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>romeo_description</build_depend>
+
+  <run_depend>gazebo_plugins</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+  <run_depend>romeo_control</run_depend>
+  <run_depend>romeo_description</run_depend>
+  <run_depend>ros_control</run_depend>
+  <run_depend>ros_controllers</run_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
