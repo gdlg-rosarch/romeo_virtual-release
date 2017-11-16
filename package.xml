@@ -20,7 +20,7 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT
 OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -->
 <package>
   <name>romeo_control</name>
-  <version>0.2.2</version>
+  <version>0.2.3</version>
   <description>Control for Aldebaran's ROMEO robot </description>
 
   <author email="costashatz@gmail.com">Konstantinos Chatzilygeroudis</author>
