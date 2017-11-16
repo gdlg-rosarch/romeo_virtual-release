@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>romeo_gazebo_plugin</name>
-  <version>0.2.2</version>
+  <version>0.2.3</version>
   <description>The romeo_gazebo_plugin package</description>
 
   <maintainer email="natalia.lyubova@gmail.com">Natalia Lyubova</maintainer>
@@ -10,8 +10,8 @@
 
   <license>Apache 2.0</license>
 
-  <url type="repository">https://github.com/ros-aldebaran/romeo_gazebo_plugin</url>
-  <url type="bugtracker">https://github.com/ros-aldebaran/romeo_gazebo_plugin/issues</url>
+  <url type="repository">https://github.com/ros-aldebaran/romeo_virtual</url>
+  <url type="bugtracker">https://github.com/ros-aldebaran/romeo_virtual/issues</url>
 
   <build_depend>gazebo_ros</build_depend>
   <build_depend>romeo_description</build_depend>
